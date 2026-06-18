@@ -1,9 +1,14 @@
-
 [
   {
     "name": "Reykjavik Street Food",
-    "deal": "2-for-1 fish & chips",
-    "price": "2990 ISK",
-    "valid_until": "18:00"
+    "deal": "2 for 1",
+    "price": 2990,
+    "validUntil": "18:00"
+  },
+  {
+    "name": "Domino's",
+    "deal": "30% off pizzas",
+    "price": 2500,
+    "validUntil": "20:00"
   }
 ]
