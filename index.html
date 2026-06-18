@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reykjavik Food Deals</title>
+</head>
+<body>
+  <h1>🔥 Reykjavik Food Deals</h1>
+
+  <ul id="deals"></ul>
+
+  <script>
+    const deals = [
+      { name: "Street Food", deal: "2-for-1", price: 2990 },
+      { name: "Pizza Place", deal: "30% off", price: 2500 }
+    ];
+
+    const list = document.getElementById("deals");
+
+    deals.forEach(d => {
+      const li = document.createElement("li");
+      li.textContent = `${d.name} - ${d.deal} - ${d.price} ISK`;
+      list.appendChild(li);
+    });
+  </script>
+</body>
+</html>
