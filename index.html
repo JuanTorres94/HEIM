@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Reykjavik Food Deals</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HEIM - Reykjavik Food Deals</title>
+
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <h1>🔥 Reykjavik Food Deals</h1>
 
-  <ul id="deals"></ul>
+  <!-- HEADER -->
+  <header class="header">
+    <h1>🔥 HEIM</h1>
+    <p>Find the best food deals in Reykjavík</p>
+  </header>
+
+  <!-- FILTER BUTTON -->
+  <section class="filters">
+    <button id="toggleFilterBtn">🍔 Filter by food type</button>
+
+    <div id="filterOptions" class="hidden">
+      <button>Pizza</button>
+      <button>Burgers</button>
+      <button>Chinese</button>
+      <button>Healthy</button>
+      <button>Seafood</button>
+    </div>
+  </section>
+
+  <!-- DEALS GRID -->
+  <main>
+    <div id="deals" class="grid"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 HEIM - Reykjavik Deals</p>
+  </footer>
 
   <script src="js/main.js"></script>
 </body>
